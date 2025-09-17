@@ -25,5 +25,6 @@ docker exec -it mysql_db mysql -u root -p
 when you will cahnge anything in mysql it will be reflected in web
 
 
+![Uploading Screenshot 2025-09-17 232314.png…]()
 
 
