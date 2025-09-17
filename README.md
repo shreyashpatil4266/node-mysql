@@ -25,6 +25,6 @@ docker exec -it mysql_db mysql -u root -p
 when you will cahnge anything in mysql it will be reflected in web
 
 
-![Uploading Screenshot 2025-09-17 232314.png…]()
+<img width="1915" height="1078" alt="Screenshot 2025-09-17 232314" src="https://github.com/user-attachments/assets/2eaa9cbc-2a51-41e2-b7bb-27f286864ad4" />
 
 
