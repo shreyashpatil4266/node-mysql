@@ -1,0 +1,29 @@
+docker run -d \
+  --name mysql_db \
+  --network appnet \
+  -e MYSQL_ROOT_PASSWORD=rootpassword \
+  -e MYSQL_DATABASE=testdb \
+  -p 3306:3306 \
+  mysql:8.0
+
+
+docker build -t node-mysql-app .
+
+docker images
+
+docker run -d \
+  --name node_app \
+  --network net \
+  -p 3000:3000 \
+  node-mysql-app
+
+docker ps
+
+docker exec -it mysql_db mysql -u root -p
+
+
+when you will cahnge anything in mysql it will be reflected in web
+
+
+
+
